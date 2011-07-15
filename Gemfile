@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc4'
+gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-1-stable'
+gem 'sprockets', :git => 'git://github.com/sstephenson/sprockets.git'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -9,9 +10,11 @@ gem 'sqlite3'
 
 # Asset template engines
 gem 'json'
-gem 'sass-rails', "~> 3.1.0.rc"
-gem 'coffee-script'
-gem 'uglifier'
+group :assets do
+  gem 'sass-rails', "~> 3.1.0.rc"
+  gem 'coffee-script'
+  gem 'uglifier'
+end
 gem 'simple_admin'
 
 gem 'jquery-rails'
