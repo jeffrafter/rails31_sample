@@ -19,6 +19,10 @@ gem 'simple_admin'
 
 gem 'jquery-rails'
 
+group :development do
+  gem 'sqlite3'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
