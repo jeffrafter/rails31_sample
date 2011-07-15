@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @thing.name %>
+</p>
+
+<p>
+  <b>Happy:</b>
+  <%= @thing.happy %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @thing.age %>
+</p>
+
+<p>
+  <b>Place:</b>
+  <%= @thing.place_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_thing_path(@thing) %> |
+<%= link_to 'Back', things_path %>

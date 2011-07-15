@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  happy: false
+  age: 1
+  place_id: 1
+
+two:
+  name: MyString
+  happy: false
+  age: 1
+  place_id: 1
