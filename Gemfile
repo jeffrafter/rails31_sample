@@ -6,7 +6,7 @@ gem 'sprockets', :git => 'git://github.com/sstephenson/sprockets.git'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql'
 
 # Asset template engines
 gem 'json'
