@@ -18,4 +18,10 @@ namespace :db do
   end
 end
 
+namespace :assets do
+  task :precompile => :disable_admin do
+    # This is just a stub to change the prerequisites
+  end
+end
+
 Sample::Application.load_tasks
